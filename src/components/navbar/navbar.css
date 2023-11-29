@@ -1,0 +1,29 @@
+.navbar-head{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.logo{
+    width: 72px;
+    height: 36px;
+}
+.men{
+    display: none;
+
+}
+
+@media screen and (max-width:600px) {
+    .men{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    .men>div{
+        width: 20px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+}
